@@ -1,7 +1,5 @@
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <h1>Hi</h1>
-  );
+  redirect("https://discord.gg/GAhS8UfDyy");
 }
